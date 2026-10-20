@@ -1,4 +1,4 @@
-const PROXY_URL = 'https://generativelanguage.googleapis.com'
+const PROXY_URL = 'https://daily-cloudcode-pa.googleapis.com'
 
 export default defineEventHandler(async event => {
     const url = getRequestURL(event)
